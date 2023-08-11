@@ -1,4 +1,5 @@
 import { DefaultLayout } from "../../layout/DefaultLayout";
+import { EmptyTasks } from "./components/EmptyTasks";
 // import { EmptyTasks } from "./components/EmptyTasks";
 import { HeaderTasks } from "./components/HeaderTasks";
 import { Tasks } from "./components/Tasks";
