@@ -8,6 +8,12 @@ export const CreateInputContainer = styled.div`
 
     display: flex;
     gap: 8px;
+    @media only screen and (max-width: 896px) {
+        width: 200px;
+        position: none;
+        position: fixed;
+        transform: translate(-66%, -51%);
+    }
 
     input {
         width: calc(730px - 72px);

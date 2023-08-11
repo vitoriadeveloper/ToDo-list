@@ -13,6 +13,10 @@ export const HeaderTasksContainer = styled.div`
     .tasks-finished {
         color: ${(props) => props.theme.purple};
     }
+
+    @media only screen and (max-width: 896px) {
+        padding: 1rem;
+    }
 `;
 
 export const Contador = styled.span`

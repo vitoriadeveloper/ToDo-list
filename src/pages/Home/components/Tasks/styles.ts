@@ -4,6 +4,13 @@ export const TasksContainer = styled.div`
     display: flex;
 `;
 
+export const Table = styled.table`
+    width: 100%;
+    @media only screen and (max-width: 896px) {
+        width: 100%;
+    }
+`;
+
 export const DefaultTable = styled.tr`
     display: flex;
     flex-direction: column;

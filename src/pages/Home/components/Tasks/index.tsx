@@ -1,7 +1,7 @@
 import checkboxFilled from "../../../../assets/checkbox_filled.svg";
 import checkboxEmpty from "../../../../assets/checkbox_empty.svg";
 import dump from "../../../../assets/dump.svg";
-import { DefaultTable, TasksContainer } from "./styles";
+import { DefaultTable, Table, TasksContainer } from "./styles";
 import { useTasks } from "../../../../contexts/TasksContext";
 
 export function Tasks() {
@@ -22,7 +22,7 @@ export function Tasks() {
 
     return (
         <TasksContainer>
-            <table>
+            <Table>
                 <tbody>
                     {tasks.map((task, i) => (
                         <DefaultTable key={i}>
@@ -50,7 +50,7 @@ export function Tasks() {
                         </DefaultTable>
                     ))}
                 </tbody>
-            </table>
+            </Table>
         </TasksContainer>
     );
 }
