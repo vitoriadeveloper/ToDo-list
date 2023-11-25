@@ -1,18 +1,18 @@
 import styled from "styled-components";
 
 export const CreateInputContainer = styled.div`
-    position: sticky;
-    top: 12.5rem;
+    position: fixed;
+    top: 9.5rem;
     left: 50%;
     transform: translate(-50%, 50%);
 
     display: flex;
     gap: 8px;
-    @media only screen and (max-width: 896px) {
-        width: 200px;
-        position: none;
+    @media only screen and (max-width: 750px) {
+        width: 400px;
         position: fixed;
-        transform: translate(-66%, -51%);
+        transform: translate(-50%, -51%);
+        top: 12.5rem;
     }
 
     input {
